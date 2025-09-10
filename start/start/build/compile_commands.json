@@ -10,5 +10,23 @@
   "command": "/opt/homebrew/bin/x86_64-elf-gcc  -I/Users/aououou/Development/plugOS/start/start/source -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -o CMakeFiles/boot.dir/boot.c.obj -c /Users/aououou/Development/plugOS/start/start/source/boot/boot.c",
   "file": "/Users/aououou/Development/plugOS/start/start/source/boot/boot.c",
   "output": "source/boot/CMakeFiles/boot.dir/boot.c.obj"
+},
+{
+  "directory": "/Users/aououou/Development/plugOS/start/start/build/source/loader",
+  "command": "/opt/homebrew/bin/x86_64-elf-gcc  -I/Users/aououou/Development/plugOS/start/start/source -m32 -g -g -o CMakeFiles/loader.dir/start.S.obj -c /Users/aououou/Development/plugOS/start/start/source/loader/start.S",
+  "file": "/Users/aououou/Development/plugOS/start/start/source/loader/start.S",
+  "output": "source/loader/CMakeFiles/loader.dir/start.S.obj"
+},
+{
+  "directory": "/Users/aououou/Development/plugOS/start/start/build/source/loader",
+  "command": "/opt/homebrew/bin/x86_64-elf-gcc  -I/Users/aououou/Development/plugOS/start/start/source -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -o CMakeFiles/loader.dir/loader_16.c.obj -c /Users/aououou/Development/plugOS/start/start/source/loader/loader_16.c",
+  "file": "/Users/aououou/Development/plugOS/start/start/source/loader/loader_16.c",
+  "output": "source/loader/CMakeFiles/loader.dir/loader_16.c.obj"
+},
+{
+  "directory": "/Users/aououou/Development/plugOS/start/start/build/source/loader",
+  "command": "/opt/homebrew/bin/x86_64-elf-gcc  -I/Users/aououou/Development/plugOS/start/start/source -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -o CMakeFiles/loader.dir/loader_32.c.obj -c /Users/aououou/Development/plugOS/start/start/source/loader/loader_32.c",
+  "file": "/Users/aououou/Development/plugOS/start/start/source/loader/loader_32.c",
+  "output": "source/loader/CMakeFiles/loader.dir/loader_32.c.obj"
 }
 ]

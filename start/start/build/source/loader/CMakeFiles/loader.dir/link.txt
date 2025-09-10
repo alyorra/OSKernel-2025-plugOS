@@ -1,0 +1,1 @@
+x86_64-elf-ld CMakeFiles/loader.dir/start.S.obj CMakeFiles/loader.dir/loader_16.c.obj CMakeFiles/loader.dir/loader_32.c.obj -m elf_i386  -Ttext=0x8000 -o /Users/aououou/Development/plugOS/start/start/build/source/loader/loader.elf

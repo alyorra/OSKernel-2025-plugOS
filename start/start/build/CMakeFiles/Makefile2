@@ -67,18 +67,22 @@ CMAKE_BINARY_DIR = /Users/aououou/Development/plugOS/start/start/build
 
 # The main recursive "all" target.
 all: source/boot/all
+all: source/loader/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: source/boot/codegen
+codegen: source/loader/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: source/boot/preinstall
+preinstall: source/loader/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: source/boot/clean
+clean: source/loader/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +103,25 @@ source/boot/preinstall:
 # Recursive "clean" directory target.
 source/boot/clean: source/boot/CMakeFiles/boot.dir/clean
 .PHONY : source/boot/clean
+
+#=============================================================================
+# Directory level rules for directory source/loader
+
+# Recursive "all" directory target.
+source/loader/all: source/loader/CMakeFiles/loader.dir/all
+.PHONY : source/loader/all
+
+# Recursive "codegen" directory target.
+source/loader/codegen: source/loader/CMakeFiles/loader.dir/codegen
+.PHONY : source/loader/codegen
+
+# Recursive "preinstall" directory target.
+source/loader/preinstall:
+.PHONY : source/loader/preinstall
+
+# Recursive "clean" directory target.
+source/loader/clean: source/loader/CMakeFiles/loader.dir/clean
+.PHONY : source/loader/clean
 
 #=============================================================================
 # Target rules for target source/boot/CMakeFiles/boot.dir
@@ -131,6 +154,38 @@ source/boot/CMakeFiles/boot.dir/codegen:
 source/boot/CMakeFiles/boot.dir/clean:
 	$(MAKE) $(MAKESILENT) -f source/boot/CMakeFiles/boot.dir/build.make source/boot/CMakeFiles/boot.dir/clean
 .PHONY : source/boot/CMakeFiles/boot.dir/clean
+
+#=============================================================================
+# Target rules for target source/loader/CMakeFiles/loader.dir
+
+# All Build rule for target.
+source/loader/CMakeFiles/loader.dir/all:
+	$(MAKE) $(MAKESILENT) -f source/loader/CMakeFiles/loader.dir/build.make source/loader/CMakeFiles/loader.dir/depend
+	$(MAKE) $(MAKESILENT) -f source/loader/CMakeFiles/loader.dir/build.make source/loader/CMakeFiles/loader.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aououou/Development/plugOS/start/start/build/CMakeFiles --progress-num=4,5,6,7 "Built target loader"
+.PHONY : source/loader/CMakeFiles/loader.dir/all
+
+# Build rule for subdir invocation for target.
+source/loader/CMakeFiles/loader.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aououou/Development/plugOS/start/start/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/loader/CMakeFiles/loader.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aououou/Development/plugOS/start/start/build/CMakeFiles 0
+.PHONY : source/loader/CMakeFiles/loader.dir/rule
+
+# Convenience name for target.
+loader: source/loader/CMakeFiles/loader.dir/rule
+.PHONY : loader
+
+# codegen rule for target.
+source/loader/CMakeFiles/loader.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f source/loader/CMakeFiles/loader.dir/build.make source/loader/CMakeFiles/loader.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aououou/Development/plugOS/start/start/build/CMakeFiles --progress-num=4,5,6,7 "Finished codegen for target loader"
+.PHONY : source/loader/CMakeFiles/loader.dir/codegen
+
+# clean rule for target.
+source/loader/CMakeFiles/loader.dir/clean:
+	$(MAKE) $(MAKESILENT) -f source/loader/CMakeFiles/loader.dir/build.make source/loader/CMakeFiles/loader.dir/clean
+.PHONY : source/loader/CMakeFiles/loader.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

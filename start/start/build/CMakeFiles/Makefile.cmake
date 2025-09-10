@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeSystem.cmake"
   "/Users/aououou/Development/plugOS/start/start/source/boot/CMakeLists.txt"
+  "/Users/aououou/Development/plugOS/start/start/source/loader/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -40,9 +41,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "source/boot/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "source/loader/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "source/boot/CMakeFiles/boot.dir/DependInfo.cmake"
+  "source/loader/CMakeFiles/loader.dir/DependInfo.cmake"
   )

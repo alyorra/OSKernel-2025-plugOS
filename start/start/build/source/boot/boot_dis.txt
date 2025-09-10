@@ -7,13 +7,13 @@ start address 0x00007c00
 
 Program Header:
     LOAD off    0x00000000 vaddr 0x00007000 paddr 0x00007000 align 2**12
-         filesz 0x00000c39 memsz 0x00000c39 flags r-x
+         filesz 0x00000c46 memsz 0x00000c46 flags r-x
     LOAD off    0x00000dfe vaddr 0x00007dfe paddr 0x00007dfe align 2**12
          filesz 0x00000002 memsz 0x00000002 flags r-x
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         00000039  00007c00  00007c00  00000c00  2**0
+  0 .text         00000046  00007c00  00007c00  00000c00  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
   1 boot_end      00000002  00007dfe  00007dfe  00000dfe  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -25,24 +25,24 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
   5 .debug_abbrev 00000047  00000000  00000000  00000eba  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
-  6 .debug_line   000000a5  00000000  00000000  00000f01  2**0
+  6 .debug_line   000000aa  00000000  00000000  00000f01  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
-  7 .debug_frame  00000034  00000000  00000000  00000fa8  2**2
+  7 .debug_frame  00000034  00000000  00000000  00000fac  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
-  8 .debug_str    00000112  00000000  00000000  00000fdc  2**0
+  8 .debug_str    00000112  00000000  00000000  00000fe0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
-  9 .debug_line_str 000000c3  00000000  00000000  000010ee  2**0
+  9 .debug_line_str 000000c3  00000000  00000000  000010f2  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 start.S.obj
 00007c19 l       .text	00000000 read_loader
 00007dfe l       boot_end	00000000 boot_sig
 00000000 l    df *ABS*	00000000 boot.c
-00007c2f g     F .text	0000000a boot_entry
+00007c2f g     F .text	00000017 boot_entry
 00007c00 g       .text	00000000 _start
-00008c39 g       .text	00000000 __bss_start
-00008c39 g       .text	00000000 _edata
-00008c3c g       .text	00000000 _end
+00008c46 g       .text	00000000 __bss_start
+00008c46 g       .text	00000000 _edata
+00008c48 g       .text	00000000 _end
 
 
 
@@ -102,7 +102,7 @@ read_loader:
     7c2d:	eb fe                	jmp    7c2d <read_loader+0x14>
 
 00007c2f <boot_entry>:
-
+#define LOADER_START_ADDR 0x8000
 /**
  * Boot的C入口函数
  * 只完成一项功能，即从磁盘找到loader文件然后加载到内容中，并跳转过去
@@ -110,10 +110,14 @@ read_loader:
 void boot_entry(void) {
     7c2f:	66 55                	push   %ebp
     7c31:	66 89 e5             	mov    %esp,%ebp
+    7c34:	66 83 ec 08          	sub    $0x8,%esp
+    ((void (*)(void))LOADER_START_ADDR)();
+    7c38:	66 b8 00 80 00 00    	mov    $0x8000,%eax
+    7c3e:	66 ff d0             	call   *%eax
 } 
-    7c34:	90                   	nop
-    7c35:	66 5d                	pop    %ebp
-    7c37:	66 c3                	retl
+    7c41:	90                   	nop
+    7c42:	66 c9                	leavel
+    7c44:	66 c3                	retl
 
 Disassembly of section boot_end:
 
