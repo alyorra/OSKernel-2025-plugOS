@@ -1,0 +1,5 @@
+/Users/aououou/Development/plugOS/start/start/build/CMakeFiles/edit_cache.dir
+/Users/aououou/Development/plugOS/start/start/build/CMakeFiles/rebuild_cache.dir
+/Users/aououou/Development/plugOS/start/start/build/source/boot/CMakeFiles/boot.dir
+/Users/aououou/Development/plugOS/start/start/build/source/boot/CMakeFiles/edit_cache.dir
+/Users/aououou/Development/plugOS/start/start/build/source/boot/CMakeFiles/rebuild_cache.dir
