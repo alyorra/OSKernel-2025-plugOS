@@ -1,4 +1,4 @@
-# bit course
+# BIT course
 
 ## Brief
 
@@ -27,3 +27,11 @@ brew install qemu
 ```bash
 cd OSKernel-2025-plugOS-main/os/os
 ```
+
+## Run
+
+1.Build
+选择[GCC 15.2.0 x86_64-elf]
+2.Run Task
+此时Qemu会启动
+3.F5启动调试
