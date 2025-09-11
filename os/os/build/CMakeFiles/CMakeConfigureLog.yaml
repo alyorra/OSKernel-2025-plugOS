@@ -1,0 +1,1708 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/Users/aououou/dev/node-global/bin/uname"
+      - "/Users/aououou/dev/rust/cargo/bin/uname"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/uname"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/uname"
+      - "/Users/aououou/dev/pyenv/shims/uname"
+      - "/Users/aououou/dev/pyenv/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      The target system is: Generic - 0.0.0 - 
+      The host system is: Darwin - 24.6.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/Users/aououou/dev/node-global/bin/gmake"
+      - "/Users/aououou/dev/rust/cargo/bin/gmake"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/gmake"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/gmake"
+      - "/Users/aououou/dev/pyenv/shims/gmake"
+      - "/Users/aououou/dev/pyenv/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/Applications/VMware Fusion.app/Contents/Public/gmake"
+      - "/Users/aououou/dev/node-global/bin/make"
+      - "/Users/aououou/dev/rust/cargo/bin/make"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/make"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/make"
+      - "/Users/aououou/dev/pyenv/shims/make"
+      - "/Users/aououou/dev/pyenv/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-gcc"
+    candidate_directories:
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc"
+    found: "/opt/homebrew/bin/x86_64-elf-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/x86_64-elf-gcc 
+      Build flags: -g;-c;-O0;-m32;-fno-pie;-fno-stack-protector;-fno-asynchronous-unwind-tables
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/aououou/Development/plugOS/os/os/build/CMakeFiles/4.1.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-ar"
+      - "ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-strip"
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-ld"
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-nm"
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/opt/homebrew/bin/x86_64-elf-dlltool"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-dlltool"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-dlltool"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-dlltool"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-dlltool"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-dlltool"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-dlltool"
+      - "/opt/homebrew/sbin/x86_64-elf-dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-dlltool"
+      - "/usr/local/bin/x86_64-elf-dlltool"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-dlltool"
+      - "/usr/bin/x86_64-elf-dlltool"
+      - "/bin/x86_64-elf-dlltool"
+      - "/usr/sbin/x86_64-elf-dlltool"
+      - "/sbin/x86_64-elf-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Users/aououou/dev/node-global/bin/dlltool"
+      - "/Users/aououou/dev/rust/cargo/bin/dlltool"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/dlltool"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/dlltool"
+      - "/Users/aououou/dev/pyenv/shims/dlltool"
+      - "/Users/aououou/dev/pyenv/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    found: "/opt/homebrew/bin/x86_64-elf-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/opt/homebrew/bin/x86_64-elf-tapi"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-tapi"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-tapi"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-tapi"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-tapi"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-tapi"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-tapi"
+      - "/opt/homebrew/sbin/x86_64-elf-tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-tapi"
+      - "/usr/local/bin/x86_64-elf-tapi"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-tapi"
+      - "/usr/bin/x86_64-elf-tapi"
+      - "/bin/x86_64-elf-tapi"
+      - "/usr/sbin/x86_64-elf-tapi"
+      - "/sbin/x86_64-elf-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/Users/aououou/dev/node-global/bin/tapi"
+      - "/Users/aououou/dev/rust/cargo/bin/tapi"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/tapi"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/tapi"
+      - "/Users/aououou/dev/pyenv/shims/tapi"
+      - "/Users/aououou/dev/pyenv/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-gcc-ar-15.2"
+      - "x86_64-elf-gcc-ar-15"
+      - "x86_64-elf-gcc-ar15"
+      - "x86_64-elf-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ar-15.2"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ar-15.2"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ar-15.2"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ar-15.2"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ar-15.2"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ar-15.2"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ar-15.2"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ar-15.2"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ar-15.2"
+      - "/usr/local/bin/x86_64-elf-gcc-ar-15.2"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ar-15.2"
+      - "/usr/bin/x86_64-elf-gcc-ar-15.2"
+      - "/bin/x86_64-elf-gcc-ar-15.2"
+      - "/usr/sbin/x86_64-elf-gcc-ar-15.2"
+      - "/sbin/x86_64-elf-gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ar-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ar-15.2"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ar-15.2"
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ar-15"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ar-15"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ar-15"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ar-15"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ar-15"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ar-15"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ar-15"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ar-15"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ar-15"
+      - "/usr/local/bin/x86_64-elf-gcc-ar-15"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ar-15"
+      - "/usr/bin/x86_64-elf-gcc-ar-15"
+      - "/bin/x86_64-elf-gcc-ar-15"
+      - "/usr/sbin/x86_64-elf-gcc-ar-15"
+      - "/sbin/x86_64-elf-gcc-ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ar-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ar-15"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ar-15"
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ar15"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ar15"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ar15"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ar15"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ar15"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ar15"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ar15"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ar15"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ar15"
+      - "/usr/local/bin/x86_64-elf-gcc-ar15"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ar15"
+      - "/usr/bin/x86_64-elf-gcc-ar15"
+      - "/bin/x86_64-elf-gcc-ar15"
+      - "/usr/sbin/x86_64-elf-gcc-ar15"
+      - "/sbin/x86_64-elf-gcc-ar15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ar15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ar15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ar15"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ar15"
+    found: "/opt/homebrew/bin/x86_64-elf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:39 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-gcc-ranlib-15.2"
+      - "x86_64-elf-gcc-ranlib-15"
+      - "x86_64-elf-gcc-ranlib15"
+      - "x86_64-elf-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ranlib-15.2"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ranlib-15.2"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ranlib-15.2"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/usr/local/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/usr/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/usr/sbin/x86_64-elf-gcc-ranlib-15.2"
+      - "/sbin/x86_64-elf-gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ranlib-15.2"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ranlib-15.2"
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ranlib-15"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ranlib-15"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ranlib-15"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ranlib-15"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ranlib-15"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ranlib-15"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ranlib-15"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ranlib-15"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ranlib-15"
+      - "/usr/local/bin/x86_64-elf-gcc-ranlib-15"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ranlib-15"
+      - "/usr/bin/x86_64-elf-gcc-ranlib-15"
+      - "/bin/x86_64-elf-gcc-ranlib-15"
+      - "/usr/sbin/x86_64-elf-gcc-ranlib-15"
+      - "/sbin/x86_64-elf-gcc-ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ranlib-15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ranlib-15"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ranlib-15"
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ranlib15"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ranlib15"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ranlib15"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ranlib15"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ranlib15"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ranlib15"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ranlib15"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ranlib15"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ranlib15"
+      - "/usr/local/bin/x86_64-elf-gcc-ranlib15"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ranlib15"
+      - "/usr/bin/x86_64-elf-gcc-ranlib15"
+      - "/bin/x86_64-elf-gcc-ranlib15"
+      - "/usr/sbin/x86_64-elf-gcc-ranlib15"
+      - "/sbin/x86_64-elf-gcc-ranlib15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ranlib15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ranlib15"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ranlib15"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ranlib15"
+    found: "/opt/homebrew/bin/x86_64-elf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/aououou/Development/plugOS/os/os/build/CMakeFiles/CMakeScratch/TryCompile-ofVO2V"
+      binary: "/Users/aououou/Development/plugOS/os/os/build/CMakeFiles/CMakeScratch/TryCompile-ofVO2V"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/aououou/Development/plugOS/os/os/build/CMakeFiles/CMakeScratch/TryCompile-ofVO2V'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25ecf/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25ecf.dir/build.make CMakeFiles/cmTC_25ecf.dir/build
+        Building C object CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj
+        /opt/homebrew/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/x86_64-elf-gcc
+        Target: x86_64-elf
+        Configured with: ../configure --target=x86_64-elf --prefix=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0 --infodir=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/share/info/x86_64-elf --disable-nls --without-isl --without-headers --with-as=/opt/homebrew/opt/x86_64-elf-binutils/bin/x86_64-elf-as --with-ld=/opt/homebrew/opt/x86_64-elf-binutils/bin/x86_64-elf-ld --with-system-zlib --enable-languages=c,c++
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25ecf.dir/'
+         /opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/libexec/gcc/x86_64-elf/15.2.0/cc1 -quiet -v /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_25ecf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m32 -mtune=generic -march=x86-64 -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -o /var/folders/q_/1kxpgfbn4052x204cy4739sr0000gn/T//ccD2H4nW.s
+        GNU C23 (GCC) version 15.2.0 (x86_64-elf)
+        	compiled by GNU C version Apple LLVM 17.0.0 (clang-1700.0.13.3), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/../../../../x86_64-elf/sys-include"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/../../../../x86_64-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/include
+         /opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/include-fixed
+        End of search list.
+        Compiler executable checksum: c6b735b0d0df332a27f6f4b2fb758ace
+        COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25ecf.dir/'
+         /opt/homebrew/opt/x86_64-elf-binutils/bin/x86_64-elf-as -v --gdwarf-5 --32 -o CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj /var/folders/q_/1kxpgfbn4052x204cy4739sr0000gn/T//ccD2H4nW.s
+        GNU assembler version 2.45 (x86_64-elf) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/libexec/gcc/x86_64-elf/15.2.0/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/libexec/gcc/x86_64-elf/15.2.0/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/libexec/gcc/x86_64-elf/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/
+        LIBRARY_PATH=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/
+        COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_25ecf
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25ecf.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/x86_64-elf-gcc
+        Target: x86_64-elf
+        Configured with: ../configure --target=x86_64-elf --prefix=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0 --infodir=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/share/info/x86_64-elf --disable-nls --without-isl --without-headers --with-as=/opt/homebrew/opt/x86_64-elf-binutils/bin/x86_64-elf-as --with-ld=/opt/homebrew/opt/x86_64-elf-binutils/bin/x86_64-elf-ld --with-system-zlib --enable-languages=c,c++
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/libexec/gcc/x86_64-elf/15.2.0/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/libexec/gcc/x86_64-elf/15.2.0/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/libexec/gcc/x86_64-elf/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/:/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/
+        LIBRARY_PATH=/opt/homebrew/Cellar/x86_64-elf-gcc/15.2.0/lib/gcc/x86_64-elf/15.2.0/
+        COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_25ecf' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_25ecf.'
+        x86_64-elf-gcc: warning: CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj: linker input file unused because linking not done
+        /opt/homebrew/bin/x86_64-elf-gcc -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v CMakeFiles/cmTC_25ecf.dir/CMakeCCompilerABI.c.obj -o cmTC_25ecf
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/bin/x86_64-elf-gcc"
+    directories:
+      source: "/Users/aououou/Development/plugOS/os/os/build/CMakeFiles/CMakeScratch/TryCompile-OiAQCn"
+      binary: "/Users/aououou/Development/plugOS/os/os/build/CMakeFiles/CMakeScratch/TryCompile-OiAQCn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/aououou/Development/plugOS/os/os/build/CMakeFiles/CMakeScratch/TryCompile-OiAQCn'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc9e4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc9e4.dir/build.make CMakeFiles/cmTC_cc9e4.dir/build
+        Building C object CMakeFiles/cmTC_cc9e4.dir/testCCompiler.c.obj
+        /opt/homebrew/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_cc9e4.dir/testCCompiler.c.obj -c /Users/aououou/Development/plugOS/os/os/build/CMakeFiles/CMakeScratch/TryCompile-OiAQCn/testCCompiler.c
+        Linking C executable cmTC_cc9e4
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc9e4.dir/link.txt --verbose=1
+        x86_64-elf-gcc: warning: CMakeFiles/cmTC_cc9e4.dir/testCCompiler.c.obj: linker input file unused because linking not done
+        /opt/homebrew/bin/x86_64-elf-gcc -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  CMakeFiles/cmTC_cc9e4.dir/testCCompiler.c.obj -o cmTC_cc9e4
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:64 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:40 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-gcc"
+    candidate_directories:
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc"
+    found: "/opt/homebrew/bin/x86_64-elf-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:40 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      x86_64-elf-gcc (GCC) 15.2.0
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:40 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-gcc-ar-"
+      - "x86_64-elf-gcc-ar-"
+      - "x86_64-elf-gcc-ar"
+      - "x86_64-elf-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ar-"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ar-"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ar-"
+      - "/usr/local/bin/x86_64-elf-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ar-"
+      - "/usr/bin/x86_64-elf-gcc-ar-"
+      - "/bin/x86_64-elf-gcc-ar-"
+      - "/usr/sbin/x86_64-elf-gcc-ar-"
+      - "/sbin/x86_64-elf-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ar-"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ar-"
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ar-"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ar-"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ar-"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ar-"
+      - "/usr/local/bin/x86_64-elf-gcc-ar-"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ar-"
+      - "/usr/bin/x86_64-elf-gcc-ar-"
+      - "/bin/x86_64-elf-gcc-ar-"
+      - "/usr/sbin/x86_64-elf-gcc-ar-"
+      - "/sbin/x86_64-elf-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ar-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ar-"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ar-"
+    found: "/opt/homebrew/bin/x86_64-elf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:40 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "x86_64-elf-gcc-ranlib-"
+      - "x86_64-elf-gcc-ranlib-"
+      - "x86_64-elf-gcc-ranlib"
+      - "x86_64-elf-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Users/aououou/dev/node-global/bin/"
+      - "/Users/aououou/dev/rust/cargo/bin/"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/"
+      - "/Users/aououou/dev/pyenv/shims/"
+      - "/Users/aououou/dev/pyenv/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+    searched_directories:
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ranlib-"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ranlib-"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ranlib-"
+      - "/usr/local/bin/x86_64-elf-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ranlib-"
+      - "/usr/bin/x86_64-elf-gcc-ranlib-"
+      - "/bin/x86_64-elf-gcc-ranlib-"
+      - "/usr/sbin/x86_64-elf-gcc-ranlib-"
+      - "/sbin/x86_64-elf-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ranlib-"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ranlib-"
+      - "/opt/homebrew/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/node-global/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/rust/cargo/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/pyenv/shims/x86_64-elf-gcc-ranlib-"
+      - "/Users/aououou/dev/pyenv/bin/x86_64-elf-gcc-ranlib-"
+      - "/opt/homebrew/sbin/x86_64-elf-gcc-ranlib-"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/x86_64-elf-gcc-ranlib-"
+      - "/usr/local/bin/x86_64-elf-gcc-ranlib-"
+      - "/System/Cryptexes/App/usr/bin/x86_64-elf-gcc-ranlib-"
+      - "/usr/bin/x86_64-elf-gcc-ranlib-"
+      - "/bin/x86_64-elf-gcc-ranlib-"
+      - "/usr/sbin/x86_64-elf-gcc-ranlib-"
+      - "/sbin/x86_64-elf-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/x86_64-elf-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/x86_64-elf-gcc-ranlib-"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/x86_64-elf-gcc-ranlib-"
+      - "/Applications/VMware Fusion.app/Contents/Public/x86_64-elf-gcc-ranlib-"
+    found: "/opt/homebrew/bin/x86_64-elf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/aououou/dev/node-global/bin"
+        - "/Users/aououou/dev/rust/cargo/bin"
+        - "/Users/aououou/dev/nvm/versions/node/v22.16.0/bin"
+        - "/Users/aououou/dev/pyenv/plugins/pyenv-virtualenv/shims"
+        - "/Users/aououou/dev/pyenv/shims"
+        - "/Users/aououou/dev/pyenv/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+...

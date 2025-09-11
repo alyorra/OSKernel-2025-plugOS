@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/aououou/Development/plugOS/os/os/build/cmake_install.cmake",
+		"/Users/aououou/Development/plugOS/os/os/build/source/boot/cmake_install.cmake",
+		"/Users/aououou/Development/plugOS/os/os/build/source/loader/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
